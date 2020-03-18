@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingTop="10dp"
+        android:layout_alignParentStart="true"
+        android:paddingHorizontal="10dp"
+        android:orientation="horizontal">
+
+        <EditText
+            android:id="@+id/cityText"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textPersonName" />
+
+        <Button
+            android:id="@+id/citySubmit"
+            android:textColor="@android:color/white"
+            android:background="@android:color/holo_blue_light"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Check" />
+    </LinearLayout>
+    <ImageView
+        android:paddingTop="20dp"
+        android:paddingRight="10dp"
+        android:layout_alignParentEnd="true"
+        android:visibility="gone"
+        android:id="@+id/goForLocationEditMode"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/ic_my_location_black_24dp" />
+</RelativeLayout>
