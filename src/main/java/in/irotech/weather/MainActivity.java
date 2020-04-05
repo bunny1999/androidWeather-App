@@ -83,6 +83,8 @@ public class MainActivity extends AppCompatActivity {
             sunrise.setText(getIntent().getStringExtra("sunrise"));
             sunset.setText(getIntent().getStringExtra("sunset"));
             country.setText(getIntent().getStringExtra("country"));
+            //MISTAKE
+            //longnitude is latitude && latitude is longnitude
             longnitude.setText(getIntent().getStringExtra("longnitude"));
             visibility.setText(getIntent().getStringExtra("visibility"));
             latitude.setText(getIntent().getStringExtra("latitude"));
